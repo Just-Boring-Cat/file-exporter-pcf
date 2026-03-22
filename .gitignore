@@ -4,4 +4,6 @@ node_modules/
 bin/
 obj/
 out/
+**/~/
+pcf/FileExporterComponent/FileExporterComponent/generated/
 *.log
