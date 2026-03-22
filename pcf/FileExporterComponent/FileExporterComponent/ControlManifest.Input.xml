@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <!--
+    Creator: Harllens George de la Cruz - The Boring Cat
+    Website: https://theboringcat.com/
+    The Boring Cat is a central hub for building, experimenting, and sharing.
+    It collects projects, tools, documentation, and practical notes from real delivery work.
+  -->
+  <control namespace="TheBoringCat" constructor="FileExporterComponent" version="0.2.3" display-name-key="FileExporter_Display" description-key="FileExporter_Desc" control-type="standard">
+    <external-service-usage enabled="false"></external-service-usage>
+
+    <property name="documentsJson" display-name-key="DocumentsJson_Display" description-key="DocumentsJson_Desc" of-type="Multiple" usage="input" required="true" />
+
+    <property name="downloadMode" display-name-key="DownloadMode_Display" description-key="DownloadMode_Desc" of-type="Enum" usage="input" required="false" default-value="0">
+      <value name="Disabled" display-name-key="DownloadMode_Disabled">0</value>
+      <value name="Zip" display-name-key="DownloadMode_Zip">1</value>
+      <value name="Separate" display-name-key="DownloadMode_Separate">2</value>
+    </property>
+
+    <property name="archiveFileName" display-name-key="ArchiveFileName_Display" description-key="ArchiveFileName_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="documents.zip" />
+
+    <property name="displayModeInput" display-name-key="DisplayModeInput_Display" description-key="DisplayModeInput_Desc" of-type="Enum" usage="input" required="false" default-value="0">
+      <value name="Edit" display-name-key="DisplayMode_Edit">0</value>
+      <value name="Disabled" display-name-key="DisplayMode_Disabled">1</value>
+      <value name="View" display-name-key="DisplayMode_View">2</value>
+    </property>
+
+    <property name="buttonText" display-name-key="ButtonText_Display" description-key="ButtonText_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="Export files" />
+    <property name="fillContainer" display-name-key="FillContainer_Display" description-key="FillContainer_Desc" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+
+    <property name="buttonType" display-name-key="ButtonType_Display" description-key="ButtonType_Desc" of-type="Enum" usage="input" required="false" default-value="0">
+      <value name="Primary" display-name-key="ButtonType_Primary">0</value>
+      <value name="Secondary" display-name-key="ButtonType_Secondary">1</value>
+      <value name="Outline" display-name-key="ButtonType_Outline">2</value>
+      <value name="Text" display-name-key="ButtonType_Text">3</value>
+    </property>
+
+    <property name="colorPalette" display-name-key="ColorPalette_Display" description-key="ColorPalette_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#0078d4" />
+    <property name="fontFamily" display-name-key="FontFamily_Display" description-key="FontFamily_Desc" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="fontSize" display-name-key="FontSize_Display" description-key="FontSize_Desc" of-type="Whole.None" usage="input" required="false" default-value="14" />
+    <property name="fontColor" display-name-key="FontColor_Display" description-key="FontColor_Desc" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="fontWeight" display-name-key="FontWeight_Display" description-key="FontWeight_Desc" of-type="Enum" usage="input" required="false" default-value="1">
+      <value name="Normal" display-name-key="FontWeight_Normal">0</value>
+      <value name="Semibold" display-name-key="FontWeight_Semibold">1</value>
+      <value name="Bold" display-name-key="FontWeight_Bold">2</value>
+    </property>
+
+    <property name="fontStyle" display-name-key="FontStyle_Display" description-key="FontStyle_Desc" of-type="Enum" usage="input" required="false" default-value="0">
+      <value name="Normal" display-name-key="FontStyle_Normal">0</value>
+      <value name="Italic" display-name-key="FontStyle_Italic">1</value>
+    </property>
+
+    <property name="textDecoration" display-name-key="TextDecoration_Display" description-key="TextDecoration_Desc" of-type="Enum" usage="input" required="false" default-value="0">
+      <value name="None" display-name-key="TextDecoration_None">0</value>
+      <value name="Underline" display-name-key="TextDecoration_Underline">1</value>
+      <value name="Strikethrough" display-name-key="TextDecoration_Strikethrough">2</value>
+    </property>
+
+    <property name="textAlign" display-name-key="TextAlign_Display" description-key="TextAlign_Desc" of-type="Enum" usage="input" required="false" default-value="1">
+      <value name="Left" display-name-key="TextAlign_Left">0</value>
+      <value name="Center" display-name-key="TextAlign_Center">1</value>
+      <value name="Right" display-name-key="TextAlign_Right">2</value>
+    </property>
+
+    <property name="verticalAlign" display-name-key="VerticalAlign_Display" description-key="VerticalAlign_Desc" of-type="Enum" usage="input" required="false" default-value="1">
+      <value name="Top" display-name-key="VerticalAlign_Top">0</value>
+      <value name="Middle" display-name-key="VerticalAlign_Middle">1</value>
+      <value name="Bottom" display-name-key="VerticalAlign_Bottom">2</value>
+    </property>
+
+    <property name="borderStyle" display-name-key="BorderStyle_Display" description-key="BorderStyle_Desc" of-type="Enum" usage="input" required="false" default-value="1">
+      <value name="None" display-name-key="BorderStyle_None">0</value>
+      <value name="Solid" display-name-key="BorderStyle_Solid">1</value>
+    </property>
+
+    <property name="borderWidth" display-name-key="BorderWidth_Display" description-key="BorderWidth_Desc" of-type="Whole.None" usage="input" required="false" default-value="1" />
+    <property name="borderColor" display-name-key="BorderColor_Display" description-key="BorderColor_Desc" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="borderRadius" display-name-key="BorderRadius_Display" description-key="BorderRadius_Desc" of-type="Whole.None" usage="input" required="false" default-value="6" />
+
+    <property name="paddingTop" display-name-key="PaddingTop_Display" description-key="PaddingTop_Desc" of-type="Whole.None" usage="input" required="false" default-value="0" />
+    <property name="paddingRight" display-name-key="PaddingRight_Display" description-key="PaddingRight_Desc" of-type="Whole.None" usage="input" required="false" default-value="0" />
+    <property name="paddingBottom" display-name-key="PaddingBottom_Display" description-key="PaddingBottom_Desc" of-type="Whole.None" usage="input" required="false" default-value="0" />
+    <property name="paddingLeft" display-name-key="PaddingLeft_Display" description-key="PaddingLeft_Desc" of-type="Whole.None" usage="input" required="false" default-value="0" />
+
+    <property name="documentsOutputJson" display-name-key="DocumentsOutputJson_Display" description-key="DocumentsOutputJson_Desc" of-type="Multiple" usage="output" required="false" />
+    <property name="downloadResultJson" display-name-key="DownloadResultJson_Display" description-key="DownloadResultJson_Desc" of-type="Multiple" usage="output" required="false" />
+    <property name="documentCount" display-name-key="DocumentCount_Display" description-key="DocumentCount_Desc" of-type="Whole.None" usage="output" required="false" />
+    <property name="validDocumentCount" display-name-key="ValidDocumentCount_Display" description-key="ValidDocumentCount_Desc" of-type="Whole.None" usage="output" required="false" />
+    <property name="isValid" display-name-key="IsValid_Display" description-key="IsValid_Desc" of-type="TwoOptions" usage="output" required="false" />
+    <property name="errorMessage" display-name-key="ErrorMessage_Display" description-key="ErrorMessage_Desc" of-type="SingleLine.Text" usage="output" required="false" />
+    <property name="lastAction" display-name-key="LastAction_Display" description-key="LastAction_Desc" of-type="SingleLine.Text" usage="output" required="false" />
+    <property name="changeToken" display-name-key="ChangeToken_Display" description-key="ChangeToken_Desc" of-type="SingleLine.Text" usage="output" required="false" />
+    <property name="selectToken" display-name-key="SelectToken_Display" description-key="SelectToken_Desc" of-type="SingleLine.Text" usage="output" required="false" />
+
+    <common-event name="OnSelect" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <resx path="strings/FileExporterComponent.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>

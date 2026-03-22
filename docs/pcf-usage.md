@@ -41,6 +41,11 @@
 ]
 ```
 
+See also:
+
+- [JSON schema](json-schema.md)
+- [Common MIME types](mime-types.md)
+
 ## Canvas Patterns
 
 ### Use the control for built-in downloads

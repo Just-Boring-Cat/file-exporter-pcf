@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, ...</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, ...</value></resheader>
+
+  <data name="FileExporter_Display" xml:space="preserve"><value>File Exporter Component</value></data>
+  <data name="FileExporter_Desc" xml:space="preserve"><value>Exports one or more text documents from JSON input, with optional ZIP packaging and JSON outputs.</value></data>
+
+  <data name="DocumentsJson_Display" xml:space="preserve"><value>Documents JSON</value></data>
+  <data name="DocumentsJson_Desc" xml:space="preserve"><value>A JSON array describing the documents to process.</value></data>
+
+  <data name="DownloadMode_Display" xml:space="preserve"><value>Download mode</value></data>
+  <data name="DownloadMode_Desc" xml:space="preserve"><value>Choose whether downloads are disabled, packaged as a ZIP archive, or triggered as separate files.</value></data>
+  <data name="DownloadMode_Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="DownloadMode_Zip" xml:space="preserve"><value>Zip</value></data>
+  <data name="DownloadMode_Separate" xml:space="preserve"><value>Separate</value></data>
+
+  <data name="ArchiveFileName_Display" xml:space="preserve"><value>Archive file name</value></data>
+  <data name="ArchiveFileName_Desc" xml:space="preserve"><value>The ZIP file name used only when download mode is Zip.</value></data>
+
+  <data name="DisplayModeInput_Display" xml:space="preserve"><value>Display mode</value></data>
+  <data name="DisplayModeInput_Desc" xml:space="preserve"><value>Controls whether the button is editable, disabled, or view-only.</value></data>
+  <data name="DisplayMode_Edit" xml:space="preserve"><value>Edit</value></data>
+  <data name="DisplayMode_Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="DisplayMode_View" xml:space="preserve"><value>View</value></data>
+
+  <data name="ButtonText_Display" xml:space="preserve"><value>Button text</value></data>
+  <data name="ButtonText_Desc" xml:space="preserve"><value>The label shown on the button.</value></data>
+  <data name="FillContainer_Display" xml:space="preserve"><value>Fill container</value></data>
+  <data name="FillContainer_Desc" xml:space="preserve"><value>When enabled, the button fills the allocated control size.</value></data>
+
+  <data name="ButtonType_Display" xml:space="preserve"><value>Type</value></data>
+  <data name="ButtonType_Desc" xml:space="preserve"><value>Visual style preset for the button.</value></data>
+  <data name="ButtonType_Primary" xml:space="preserve"><value>Primary</value></data>
+  <data name="ButtonType_Secondary" xml:space="preserve"><value>Secondary</value></data>
+  <data name="ButtonType_Outline" xml:space="preserve"><value>Outline</value></data>
+  <data name="ButtonType_Text" xml:space="preserve"><value>Text</value></data>
+
+  <data name="ColorPalette_Display" xml:space="preserve"><value>Color palette</value></data>
+  <data name="ColorPalette_Desc" xml:space="preserve"><value>Base color used for button styling.</value></data>
+  <data name="FontFamily_Display" xml:space="preserve"><value>Font</value></data>
+  <data name="FontFamily_Desc" xml:space="preserve"><value>Font family used for the button text.</value></data>
+  <data name="FontSize_Display" xml:space="preserve"><value>Font size</value></data>
+  <data name="FontSize_Desc" xml:space="preserve"><value>Font size used for the button text.</value></data>
+  <data name="FontColor_Display" xml:space="preserve"><value>Font color</value></data>
+  <data name="FontColor_Desc" xml:space="preserve"><value>Text color used for the button label.</value></data>
+
+  <data name="FontWeight_Display" xml:space="preserve"><value>Font weight</value></data>
+  <data name="FontWeight_Desc" xml:space="preserve"><value>Weight used for the button text.</value></data>
+  <data name="FontWeight_Normal" xml:space="preserve"><value>Normal</value></data>
+  <data name="FontWeight_Semibold" xml:space="preserve"><value>Semibold</value></data>
+  <data name="FontWeight_Bold" xml:space="preserve"><value>Bold</value></data>
+
+  <data name="FontStyle_Display" xml:space="preserve"><value>Font style</value></data>
+  <data name="FontStyle_Desc" xml:space="preserve"><value>Style used for the button text.</value></data>
+  <data name="FontStyle_Normal" xml:space="preserve"><value>Normal</value></data>
+  <data name="FontStyle_Italic" xml:space="preserve"><value>Italic</value></data>
+
+  <data name="TextDecoration_Display" xml:space="preserve"><value>Text decoration</value></data>
+  <data name="TextDecoration_Desc" xml:space="preserve"><value>Decoration used for the button text.</value></data>
+  <data name="TextDecoration_None" xml:space="preserve"><value>None</value></data>
+  <data name="TextDecoration_Underline" xml:space="preserve"><value>Underline</value></data>
+  <data name="TextDecoration_Strikethrough" xml:space="preserve"><value>Strikethrough</value></data>
+
+  <data name="TextAlign_Display" xml:space="preserve"><value>Align</value></data>
+  <data name="TextAlign_Desc" xml:space="preserve"><value>Horizontal content alignment inside the button.</value></data>
+  <data name="TextAlign_Left" xml:space="preserve"><value>Left</value></data>
+  <data name="TextAlign_Center" xml:space="preserve"><value>Center</value></data>
+  <data name="TextAlign_Right" xml:space="preserve"><value>Right</value></data>
+
+  <data name="VerticalAlign_Display" xml:space="preserve"><value>Vertical align</value></data>
+  <data name="VerticalAlign_Desc" xml:space="preserve"><value>Vertical content alignment inside the button.</value></data>
+  <data name="VerticalAlign_Top" xml:space="preserve"><value>Top</value></data>
+  <data name="VerticalAlign_Middle" xml:space="preserve"><value>Middle</value></data>
+  <data name="VerticalAlign_Bottom" xml:space="preserve"><value>Bottom</value></data>
+
+  <data name="BorderStyle_Display" xml:space="preserve"><value>Border</value></data>
+  <data name="BorderStyle_Desc" xml:space="preserve"><value>Border style used for the button.</value></data>
+  <data name="BorderStyle_None" xml:space="preserve"><value>None</value></data>
+  <data name="BorderStyle_Solid" xml:space="preserve"><value>Solid</value></data>
+  <data name="BorderWidth_Display" xml:space="preserve"><value>Border width</value></data>
+  <data name="BorderWidth_Desc" xml:space="preserve"><value>Border width in pixels.</value></data>
+  <data name="BorderColor_Display" xml:space="preserve"><value>Border color</value></data>
+  <data name="BorderColor_Desc" xml:space="preserve"><value>Border color used for the button.</value></data>
+  <data name="BorderRadius_Display" xml:space="preserve"><value>Border radius</value></data>
+  <data name="BorderRadius_Desc" xml:space="preserve"><value>Corner radius in pixels.</value></data>
+
+  <data name="PaddingTop_Display" xml:space="preserve"><value>Padding top</value></data>
+  <data name="PaddingTop_Desc" xml:space="preserve"><value>Top padding in pixels.</value></data>
+  <data name="PaddingRight_Display" xml:space="preserve"><value>Padding right</value></data>
+  <data name="PaddingRight_Desc" xml:space="preserve"><value>Right padding in pixels.</value></data>
+  <data name="PaddingBottom_Display" xml:space="preserve"><value>Padding bottom</value></data>
+  <data name="PaddingBottom_Desc" xml:space="preserve"><value>Bottom padding in pixels.</value></data>
+  <data name="PaddingLeft_Display" xml:space="preserve"><value>Padding left</value></data>
+  <data name="PaddingLeft_Desc" xml:space="preserve"><value>Left padding in pixels.</value></data>
+
+  <data name="DocumentsOutputJson_Display" xml:space="preserve"><value>Documents output JSON</value></data>
+  <data name="DocumentsOutputJson_Desc" xml:space="preserve"><value>Processed multi-document payload as JSON.</value></data>
+  <data name="DownloadResultJson_Display" xml:space="preserve"><value>Download result JSON</value></data>
+  <data name="DownloadResultJson_Desc" xml:space="preserve"><value>Last download attempt result as JSON.</value></data>
+  <data name="DocumentCount_Display" xml:space="preserve"><value>Document count</value></data>
+  <data name="DocumentCount_Desc" xml:space="preserve"><value>Total number of parsed documents.</value></data>
+  <data name="ValidDocumentCount_Display" xml:space="preserve"><value>Valid document count</value></data>
+  <data name="ValidDocumentCount_Desc" xml:space="preserve"><value>Number of documents that passed validation.</value></data>
+  <data name="IsValid_Display" xml:space="preserve"><value>Is valid</value></data>
+  <data name="IsValid_Desc" xml:space="preserve"><value>Indicates whether all parsed documents are valid.</value></data>
+  <data name="ErrorMessage_Display" xml:space="preserve"><value>Error message</value></data>
+  <data name="ErrorMessage_Desc" xml:space="preserve"><value>Current validation or processing error message.</value></data>
+  <data name="LastAction_Display" xml:space="preserve"><value>Last action</value></data>
+  <data name="LastAction_Desc" xml:space="preserve"><value>The most recent action performed by the control.</value></data>
+  <data name="ChangeToken_Display" xml:space="preserve"><value>Change token</value></data>
+  <data name="ChangeToken_Desc" xml:space="preserve"><value>Changes when the processed output payload changes.</value></data>
+  <data name="SelectToken_Display" xml:space="preserve"><value>Select token</value></data>
+  <data name="SelectToken_Desc" xml:space="preserve"><value>Changes only when the button is clicked.</value></data>
+
+  <data name="OnSelect_Display" xml:space="preserve"><value>OnSelect</value></data>
+  <data name="OnSelect_Desc" xml:space="preserve"><value>Event fired when the button is clicked in Edit mode.</value></data>
+</root>
